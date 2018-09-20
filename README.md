@@ -167,3 +167,9 @@ $vcf->set_records($records);
 # Write new file
 &write_vcf_file($header,$records,"my_filtered_variants.txt");
 ```
+
+## Further work
+
+Although the package is functional at this first present state, there are
+a lot of functionalities to add both regarding VCF validation and
+manipulatio as well as documentation (related _TODO_ tags). Stay tuned!
