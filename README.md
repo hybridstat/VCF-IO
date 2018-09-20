@@ -49,6 +49,14 @@ meta-information as well as the VCF records themselves.
 VCF::IO supports VCF formats 4.1, 4.2, 4.3 which are the most widely used
 versions at this point. Support for most up-to-date versions is on the way.
 
+Format specifications can be found in the following links
+
+| Version | Specifications |
+| ------- | ----------------------------------------------------------------- |
+| 4.1     | [VCFv4.1 specs](https://samtools.github.io/hts-specs/VCFv4.1.pdf) |
+| 4.2     | [VCFv4.2 specs](https://samtools.github.io/hts-specs/VCFv4.2.pdf) |
+| 4.3     | [VCFv4.3 specs](https://samtools.github.io/hts-specs/VCFv4.3.pdf) |
+
 Unlike other Perl (or other language) packages/scripts/suites used for VCF
 processing and downstream bioinformatics analysis, VCF::IO focuses a lot on VCF
 header and record validation, as a lot of effort and manual labor is being put 
@@ -68,7 +76,8 @@ documentation either use the ```perldoc``` function after installation:
 
 ```perldoc VCF::IO```
 
-or read the Wiki pages (essentially converted from POD documentation)
+or read the [Wiki](https://github.com/hybridstat/VCF-IO/wiki) pages (essentially 
+converted from POD documentation using ```Pod::Markdown```)
 
 ### Parse and validate a VCF file
 
