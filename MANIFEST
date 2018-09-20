@@ -1,0 +1,12 @@
+Changes
+lib/VCF/Header.pm
+lib/VCF/IO.pm
+lib/VCF/Record.pm
+lib/VCF/_Helper.pm
+Makefile.PL
+MANIFEST            This list of files
+README
+t/00-load.t
+t/manifest.t
+t/pod-coverage.t
+t/pod.t
