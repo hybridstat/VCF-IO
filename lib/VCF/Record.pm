@@ -656,7 +656,7 @@ sub add {
 =head2 change
 
 Change the attributes of a given record. This function will B<not> add new keys
-and values to an existing record. Use the C<add_key_attr) and 
+and values to an existing record. Use the C<add_key_attr> and 
 C<add_key_value_attr> methods for this.
 
 The C<change> method must generally be used with much caution.

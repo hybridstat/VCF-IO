@@ -425,7 +425,7 @@ sub parse_and_validate {
     return($self);
 }
 
-=head 2 parse_sample_names
+=head2 parse_sample_names
 
 This function parses a VCF file up to the point where #CHROM is found and from
 this line it returns an array reference with the available samples in the VCF
